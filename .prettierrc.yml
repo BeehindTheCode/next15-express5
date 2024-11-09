@@ -1,0 +1,12 @@
+arrowParens: always
+bracketSpacing: true
+jsxSingleQuote: false
+printWidth: 100
+quoteProps: as-needed
+semi: false
+singleQuote: true
+tabWidth: 2
+trailingComma: none
+useTabs: false
+plugins: ["@ianvs/prettier-plugin-sort-imports"]
+importOrder: ["^react$", "", "^@architecturex/(.*)$", "", "^[~/]", "", "^[./]"]
