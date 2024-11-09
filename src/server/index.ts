@@ -25,7 +25,7 @@ const start = () => {
       console.log(`Next.js is now building...`)
 
       await nextBuild(
-        path.join(__dirname, '..'),
+        path.join(__dirname, '../../'),
         false,
         false,
         false,
